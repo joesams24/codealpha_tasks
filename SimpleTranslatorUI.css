@@ -1,0 +1,97 @@
+/* Full-page wrapper to center content */
+.small-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 20px;
+}
+
+/* Main card-like translator box */
+.translator-container {
+  max-width: 420px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+
+/* Header style */
+.translator-header {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Textarea input */
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 12px;
+  margin-bottom: 16px;
+  resize: none;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  outline: none;
+}
+
+/* Language selection layout */
+.select-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+/* Dropdown selectors */
+select {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  outline: none;
+}
+
+/* Arrow icon between dropdowns */
+.arrow {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Translate button */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0d70d1;
+}
+
+/* Output display */
+.translated-text {
+  margin-top: 18px;
+  padding: 14px;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  font-size: 15px;
+  color: #333;
+  min-height: 80px;
+  white-space: pre-wrap;
+}
