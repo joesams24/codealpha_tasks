@@ -36,11 +36,27 @@ This project is a simple React-based **Language Translator Web App** that allows
 ---
 
 ## 🛠️ Installation & Setup
+## 📁 Project Structure
+translate-app/
+│
+├── public/
+│   └── index.html
+│
+├── src/
+│   ├── components/
+│   │   ├── SimpleTranslatorUI.jsx       # Main translator component
+│   │   └── SimpleTranslatorUI.css       # Styling for the translator UI
+│   │
+│   ├── App.js                            # Main entry point for React components
+│   ├── index.js                          # Entry point for rendering the React app
+│   └── reportWebVitals.js
+│
+├── .gitignore
+├── package.json
+├── README.md                             # Project description and usage
+└── yarn.lock / package-lock.json
 
-1. **Clone the repository or create a new React app**:
-   ```bash
-   npx create-react-app translate-app
-   cd translate-app
+   
 Add the required files:
 
 SimpleTranslatorUI.jsx (component)
@@ -51,16 +67,6 @@ Import the component inside App.js
 
 Install dependencies (if needed):
 
-bash
-Copy
-Edit
-npm install
-Start the app:
-
-bash
-Copy
-Edit
-npm start
 🔐 API Setup
 Visit: Google Translate API on RapidAPI
 
@@ -68,9 +74,6 @@ Subscribe to the API and get your X-RapidAPI-Key
 
 Replace the key in SimpleTranslatorUI.jsx:
 
-js
-Copy
-Edit
 'X-RapidAPI-Key': 'YOUR_API_KEY_HERE'
 📸 UI Preview
 The UI is designed to look clean and mobile-friendly with a centered container and card-like layout.
@@ -108,11 +111,7 @@ ChatBotFAQ-app/
 ├── package.json
 └── README.md
 
-yaml
-Copy
-Edit
 
----
 
 ## 🛠️ Installation
 
