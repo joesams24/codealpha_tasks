@@ -34,8 +34,6 @@ This project is a simple React-based **Language Translator Web App** that allows
 - **Fetch API**
 
 ---
-
-## 🛠️ Installation & Setup
 ## 📁 Project Structure
 translate-app/
 │
@@ -67,6 +65,25 @@ Import the component inside App.js
 
 Install dependencies (if needed):
 
+## 🛠️ Installation & Setup
+
+1. **Clone the repository or create a new React app**:
+   
+   npx create-react-app translate-app
+   cd translate-app
+Add the required files:
+
+SimpleTranslatorUI.jsx (component)
+
+SimpleTranslatorUI.css (style file)
+
+Import the component inside App.js
+
+Install dependencies (if needed):
+npm install
+Start the app:
+npm start
+
 🔐 API Setup
 Visit: Google Translate API on RapidAPI
 
@@ -81,6 +98,7 @@ The UI is designed to look clean and mobile-friendly with a centered container a
 📄 License
 This project is created as part of internship work and is intended for educational use only.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Task2- 💬 Laptop FAQ ChatBot (React + Cosine Similarity)
 
